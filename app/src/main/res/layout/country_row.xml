@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:paddingTop="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/flag_image"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:scaleType="fitXY"
+        android:clipToOutline="true"
+        android:background="@drawable/ic_broken_image"/>
+
+        <TextView
+            android:id="@+id/country_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Albania"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintLeft_toRightOf="@id/flag_image"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="65dp"
+            android:textColor="#000000"
+            android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/country_capital"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/flag_image"
+        android:text="Tirania"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="32dp"
+        android:textStyle="italic"/>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

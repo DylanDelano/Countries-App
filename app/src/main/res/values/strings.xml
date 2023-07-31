@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Countries app</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="en">
+        <item name="android:text">ENG</item>
+    </string>
+
+    <style name="Widget.Inventory.TextInputLayout.OutlinedBox" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+    <item name="android:fontFamily">@</item> </style>
+
+    <string name="button_filter" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/button_background</item> </string>
+
 </resources>
